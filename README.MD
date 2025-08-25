@@ -1,88 +1,53 @@
-# Welcome AI Tour 26 Creators!
-
-Thanks for creating content for AI Tour 26.
-
-One of our opportunities from FY25 was make a more consistent experience for attendees.  Following this template, and keeping users in these repos, will help us achieve this opportunity for this year's AI Tour.
-
-Steps:
-
-## Docs using MKDocs
-If you are interested in using mkdocs, this repo is configured for it.
-1. update the `mkdocs.yml` file to reference your session. Look particularly for the `site_name`, `site_author`, and `repo_name` tags.
-1. Subfolders in the docs folder will show up as tabs in the navigation bar.
-
-If you want to disable mkdocs:
-1. Delete the mkdocs.yml file. 
-1. Delete the references to it in [docs/README.md](./docs/README.md)
-1. Delete the docs/assets folder and its contents.
-
-## Other folders
-Note the data, docs, src, lab, session-delivery-resources folders. 
-1. Remove folders that you dont need.
-1. Please keep and use the folders that you do need.  e.g. put your data in the data folder, and put your docs in the docs folder.
-
-## Update Readme
-1. Fill out the content below in this file, below the banner graphic.
-
-## Update Repo Info
-
-1. Note the data, docs, src, lab, session-delivery-resources folders. 
-
-    1. Remove folders that you dont need, but please keep and use the folders that you do need.  e.g. put your data in the data folder, and put your docs in the docs folder.
-
-1. Fill out the content below in this file, below the banner graphic.
-
-1. Update the Repo Info for this repo 
-    1. Click the gear icon⚙️ in the upper right.
-    1. Set a good description of this repo.
-    1. Add the technologies that you're using in this session.  E.g. the same items that are in the Technologies Used section below.
-
-1. Please embed links to Learn with your campaign codes!
-
-## Slides and Recordings
-1. Do not store slides or recordings in this repo
-1. We will implement a similar solution to last year's with azure blob storage. When the time comes, link to these from the session-delivery-resources folder readme.
-
-## Questions?
-Send them to Mike Kinsman, Erik Weis, and cc Anthony Bartolo, or surface through your content lead.
-
-## Last step
-Delete this line and everything above it!
-
-
 <p align="center">
 <img src="img/Banner-MS-AI-Tour-26.png" alt="decorative banner" width="1200"/>
 </p>
 
 # [Microsoft AI Tour 2026](https://aitour.microsoft.com)
 
-## 🔥BRKXXX: Enable agentic AI apps with a unified data estate in Microsoft Fabric
+## BRK462: Enable agentic AI apps with a unified data estate in Microsoft Fabric
 
 If you will be delivering this session, check the [session-delivery-sources](./session-delivery-resources/) folder for slides, scripts, and other resources.
 
 ### Session Description
 
-*Add Session Description*
+This session explores how organizations can enable agentic AI applications by unifying their data estate using Microsoft Fabric. Through the story of Zava, a regional DIY retailer, the session demonstrates how fragmented data systems can be modernized, integrated, and made AI-ready. Attendees will see practical demos covering data unification, transformation, governance, CI/CD for data products, and the integration of AI-powered experiences, all while maintaining robust security and compliance.
 
 
 ### 🧠 Learning Outcomes
 
 By the end of this session, learners will be able to:
 
--  
--
--
+- Understand the challenges of fragmented data estates and the benefits of unification with Microsoft Fabric.
+- Learn how to ingest, transform, and govern data using Fabric features like OneLake, shortcuts, and mirroring.
+- Gain practical knowledge of implementing CI/CD for data products and analytics workflows in Fabric.
+- Discover how to embed AI and Copilot capabilities for both technical and business users, including real-time analytics, natural language queries, and data agents.
+- Recognize best practices for securing data and AI workloads in a unified platform.
 
 ### 💻 Technologies Used
 
-1.
-1.
-1.
+1. Microsoft Fabric (including OneLake, Data Factory, Power BI, Real-Time Intelligence, Copilot, Data Agents, CI/CD integration)
+1. Databricks (catalog mirroring with Fabric)
+1. GitHub and Azure DevOps
+1. Microsoft Teams and Copilot Studio
+
+### 🎬 Demos
+
+| # | Demo | 
+|---|------|
+| 1 | Shortcuts transformations |
+| 2 | CI/CD Integration | 
+| 3 | Real-Time Anomaly Detection  |
+| 4 | AI Data Enrichment  |
+| 5 | PowerBI Copilot Experience  |
+| 6 | Databricks and Fabric Data Agents |
+| 7 | Fabric Security  |
 
 ### 🔗 Session Resources
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Additional Resources for this session | https://learn.microsoft.com | Links specific to this session |
+| Lab - Securing a Microsoft Fabric Environment | https://github.com/cmaneu/WorkshopPowerBI/blob/main/Lab9%20-%20EN%20-%20Securing%20a%20Microsoft%20Fabric%20Environment.md | This workshop provides a step-by-step guide to securely deploying a Microsoft Fabric environment with Spark Notebooks, ensuring all access to resources like Azure Data Lake and Key Vault is restricted to an organization's internal network using Private Link, private endpoints, and disabled public internet access for maximum data protection and compliance. |
+| Free Book - PySpark in Fabric | https://pyspark-fabric.maneu.net/ | A practical guide to Data Engineering tasks with PySpark in Microsoft Fabric |
+| Sample - Open Mirroring | https://github.com/cmaneu/fabric-open-mirroring-sample | A complete sample about Microsoft Fabric Open mirroring feature. |
 
 ### 📚 Continued Learning Resources
 | Resources          | Links                             | Description        |
@@ -97,31 +62,43 @@ By the end of this session, learners will be able to:
 
 ## Content Owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/mikekinsman">
-        <img src="https://github.com/mikekinsman.png" width="100px;" alt="INSERT NAME HERE"
-"/><br />
-        <sub><b> INSERT NAME HERE
-</b></sub></a><br />
-            <a href="https://github.com/mikekinsman" title="talk">📢</a> 
+    <td align="center"><a href="http://github.com/toolboc">
+        <img src="https://github.com/toolboc.png" width="100px;" alt="Paul DeCarlo" /><br />
+        <sub><b> Paul DeCarlo
+        </b></sub></a>
+        <br />
+        <a href="https://github.com/toolboc" title="talk">📢</a> 
     </td>
-    <td align="center"><a href="http://github.com/mikekinsman">
-        <img src="https://github.com/mikekinsman.png" width="100px;" alt="INSERT NAME HERE
-"/><br />
-        <sub><b>INSERT NAME HERE
-</b></sub></a><br />
-            <a href="https://github.com/mikekinsman" title="talk">📢</a> 
+    <td align="center"><a href="http://github.com/dikodev">
+        <img src="https://github.com/dikodev.png" width="100px;" alt="Someleze Diko" /><br />
+        <sub><b> Someleze Diko
+        </b></sub></a>
+        <br />
+        <a href="https://github.com/dikodev" title="talk">📢</a> 
     </td>
-</tr></table>
+    <td align="center"><a href="http://github.com/cmaneu">
+        <img src="https://github.com/cmaneu.png" width="100px;" alt="Christopher MANEU""/><br />
+        <sub><b> Christopher Maneu
+        </b></sub></a>
+        <br />
+        <a href="https://github.com/cmaneu" title="talk">📢</a> 
+    </td>
+    <td align="center"><a href="http://github.com/iemejia">
+        <img src="https://github.com/iemejia.png" width="100px;" alt="Ismaël Mejía""/><br />
+        <sub><b> Ismaël Mejía </b></sub></a>
+        <br />
+        <a href="https://github.com/iemejia" title="talk">📢</a> 
+    </td>
+    <td align="center"><a href="http://github.com/Jcardif">
+        <img src="https://github.com/Jcardif.png" width="100px;" alt="Josh Ndemenge" /><br />
+        <sub><b> Josh Ndemenge </b></sub></a>
+        <br />
+        <a href="https://github.com/Jcardif" title="talk">📢</a> 
+    </td>
 
-## 
+</tr></table>
 
 ## Responsible AI 
 
