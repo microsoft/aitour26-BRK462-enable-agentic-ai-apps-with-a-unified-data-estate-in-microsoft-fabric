@@ -10,9 +10,8 @@ This section will help you get up to speed so you can confidently deliver this s
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| Session Delivery Deck     |  [Deck](https://aka.ms/) | The session delivery slides |
-| Recorded Session Delivery     |  [Video](https://aka.ms/) | The entire session delivered by a speaker |
-| Train the Trainer introduction video     |  [Video](https://aka.ms/) | A quick introduction to the session, the context and how to deliver it. |
+| Session Delivery Deck     |  [Deck](https://aka.ms/AAxsd4u) | The session delivery slides |
+| Recorded Session Delivery     |  [Video](https://aka.ms/AAxsd4v) | The entire session delivered by a speaker |
 
 
 ## 🚀Get Started
