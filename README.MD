@@ -32,15 +32,14 @@ By the end of this session, learners will be able to:
 
 ### 🎬 Demos
 
-| # | Demo | 
-|---|------|
-| 1 | Shortcuts transformations |
-| 2 | CI/CD Integration | 
-| 3 | Real-Time Anomaly Detection  |
-| 4 | AI Data Enrichment  |
-| 5 | PowerBI Copilot Experience  |
-| 6 | Databricks and Fabric Data Agents |
-| 7 | Fabric Security  |
+| # | Demo | Description | Git repository URL |
+|---:|------|-------------|--------------------|
+| 1 | Shortcuts transformations | See how you can access data from outside Fabric, and transform it without code. | https://github.com/microsoft/shortcut_transfroms-ai-tour-demos-fy26 |
+| 2 | CI/CD Integration | Showcase a full CI / CD Setup with Fabric and Azure DevOps and GitHub Actions | https://github.com/cmaneu/fabric-ci-cd-demo |
+| 3 | Real-Time Anomaly Detection | No-Code Anomaly detection on Realtime data | https://github.com/microsoft/anomaly-detection-ai-tour-demos-fy26- |
+| 4 | AI Data Enrichment | Use AI Functions to enrich and analyze your data | https://github.com/microsoft/ai-in-fabric-ai-tour-demos-fy26 |
+| 5 | PowerBI Copilot Experience |  | https://github.com/microsoft/ai-in-fabric-ai-tour-demos-fy26 |
+| 6 | Databricks and Fabric Data Agents | Use data from Databricks inside a Copilot Studio-powered Data agent | https://github.com/cmaneu/databricks-fabric-data-agents |
 
 ### 🔗 Session Resources
 | Resources          | Links                             | Description        |
