@@ -11,7 +11,7 @@ This section will help you get up to speed so you can confidently deliver this s
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | Session Delivery Deck     |  [Deck](https://aka.ms/AAxsd4u) | The session delivery slides |
-| Recorded Session Delivery     |  [Video](https://aka.ms/AAxsd4v) | The entire session delivered by a speaker |
+| Recorded Session Delivery     |  [Video](https://youtu.be/9_DBURfhm80) | The entire session delivered by a speaker |
 
 
 ## 🚀Get Started
