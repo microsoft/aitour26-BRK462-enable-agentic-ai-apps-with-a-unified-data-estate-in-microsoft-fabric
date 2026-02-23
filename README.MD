@@ -99,6 +99,12 @@ Additional Languages are coming soon.
 
 </tr></table>
 
+## 🚀 Try Azure for Free!
+
+Ready to build, experiment, or scale your next project? Kick things off with an Azure Free Trial and get access to popular services, generous monthly credits, and the tools you need to ship fast. Plus, you can also tap into always‑free database tiers like Azure SQL Database and Azure Cosmos DB. 👉 Start your free journey here: https://aka.ms/devrelft
+
+---
+
 ## Responsible AI 
 
 Microsoft is committed to helping our customers use our AI products responsibly, sharing our learnings, and building trust-based partnerships through tools like Transparency Notes and Impact Assessments. Many of these resources can be found at [https://aka.ms/RAI](https://aka.ms/RAI).
